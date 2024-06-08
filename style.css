@@ -75,7 +75,7 @@ a{
 }
 
 button{
-    width: 130px;
+    width: 150px;
     background-color: #3882f6;
     padding: 4px;
     border-radius: 10px;
@@ -85,7 +85,93 @@ button{
 }
 
 .main-image{
-
-    height: 40%;
+    height: 70%;
     width: 40%;
+}
+
+.image-cards{
+    flex: 1 0 auto;
+    background-color: #f9faf8;
+    padding-bottom: 32px;
+}
+
+.image-heading{
+    margin: 16px auto;
+    width: 50%;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+}
+.card-image {
+    width: 250px;
+    height: 200px;
+}
+
+.quote{
+
+    padding: 48px;
+    background-color: #e5e7eb;
+    flex: 1 0 auto;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.call-to-action {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA-container {
+    width: 70%;
+    background-color: #3882f6;
+    padding: 24px 96px;
+    margin: 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.CTA-content-heading {
+
+    font-size: 36px;
+    color: #f9faf8;
+}
+
+.CTA-content-subtext {
+
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.CTA-button {
+
+    border-color: #f9faf8;
+    border-radius: 12px;
+    border: solid;
+    padding: 4px 8px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 24px;
 }
